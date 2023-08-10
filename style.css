@@ -152,3 +152,41 @@ form .form-help :where(label, a) {
 .form-wrapper small a {
   color: #0071eb;
 }
+
+@media(max-width: 740px) {
+  body::before {
+    display: none;
+  }
+}
+
+@media(max-width: 320px) {
+  body::before {
+    display: none;
+  }
+
+  nav a img {
+    margin-left: 25px !important;
+  }
+
+  .form-control input {
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 20px 0;
+  }
+
+  .form-wrapper {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+}
+
+@media(max-width: 425px) {
+  body::before {
+    display: none;
+  }
+
+  nav {
+    padding: 0;
+    margin: 25px;
+  }
+}
